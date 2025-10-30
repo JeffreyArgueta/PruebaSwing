@@ -1,8 +1,11 @@
 package com.jeffrey.swingapp;
 
-import javax.swing.*;
+import javax.swing.SwingUtilities;
+import javax.swing.SwingConstants;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
 
-public class App 
+public class App
 {
     public static void main( String[] args )
     {

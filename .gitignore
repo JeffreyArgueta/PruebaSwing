@@ -2,6 +2,12 @@
 /target/
 *.log
 
+# JDTLS
+.metadata/
+.classpath
+.project
+.settings/
+
 # IDEs
 *.iml
 .idea/
