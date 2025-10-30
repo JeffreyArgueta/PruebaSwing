@@ -18,6 +18,24 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.formdev/flatlaf-fonts-roboto -->
+    <dependency>
+      <groupId>com.formdev</groupId>
+      <artifactId>flatlaf-fonts-roboto</artifactId>
+      <version>2.137</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.formdev/flatlaf-fonts-jetbrains-mono -->
+    <dependency>
+      <groupId>com.formdev</groupId>
+      <artifactId>flatlaf-fonts-jetbrains-mono</artifactId>
+      <version>2.304</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.formdev/flatlaf-fonts-inter -->
+    <dependency>
+      <groupId>com.formdev</groupId>
+      <artifactId>flatlaf-fonts-inter</artifactId>
+      <version>4.1</version>
+    </dependency>
   </dependencies>
 
   <build>
