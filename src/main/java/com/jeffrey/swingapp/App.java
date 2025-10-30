@@ -24,7 +24,7 @@ public class App {
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       JPanel panel = new JPanel();
       panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-      frame.setSize(400, 300);
+      frame.setSize(800, 500);
 
       JLabel label1 = new JLabel("¡Hola, FlatInterFont!", SwingConstants.CENTER);
       JLabel label2 = new JLabel("¡Hola, FlatRobotoFont!", SwingConstants.CENTER);
@@ -51,7 +51,7 @@ public class App {
       panel.add(Box.createVerticalGlue());
 
       frame.setContentPane(panel);
-      frame.pack();
+      // frame.pack();
       frame.setVisible(true);
     });
   }
