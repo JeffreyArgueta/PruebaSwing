@@ -16,7 +16,19 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
-      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.formdev/flatlaf -->
+    <dependency>
+      <groupId>com.formdev</groupId>
+      <artifactId>flatlaf</artifactId>
+      <version>3.6.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.formdev/flatlaf-intellij-themes -->
+    <dependency>
+      <groupId>com.formdev</groupId>
+      <artifactId>flatlaf-intellij-themes</artifactId>
+      <version>3.6.2</version>
+      <scope>runtime</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/com.formdev/flatlaf-fonts-roboto -->
     <dependency>

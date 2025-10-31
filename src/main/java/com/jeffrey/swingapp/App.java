@@ -5,6 +5,8 @@ import com.formdev.flatlaf.fonts.inter.FlatInterFont;
 import com.formdev.flatlaf.fonts.roboto.FlatRobotoFont;
 import com.formdev.flatlaf.fonts.jetbrains_mono.FlatJetBrainsMonoFont;
 
+import com.formdev.flatlaf.themes.FlatMacDarkLaf;
+
 import javax.swing.SwingUtilities;
 import javax.swing.SwingConstants;
 import javax.swing.Box;
@@ -15,6 +17,8 @@ import javax.swing.JPanel;
 
 public class App {
   public static void main(String[] args) {
+    FlatMacDarkLaf.setup();
+
     FlatInterFont.install();
     FlatRobotoFont.install();
     FlatJetBrainsMonoFont.install();
